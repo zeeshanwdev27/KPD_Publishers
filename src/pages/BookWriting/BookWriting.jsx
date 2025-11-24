@@ -10,7 +10,7 @@ import Portfolio from '../../components/Portfolio.jsx'
 function BookWriting() {
   return (
     <>
-    <HeroSection title={'Book Writing Services – Our Nice-Specific Writers Can Do Wonders.'} description={'Our team of skilled writers specializes in various genres and niches to help you share your experiences, ideas, and expertise without any boundaries. From heartwarming romances to spine-tingling thrillers, we have the talent and expertise to craft the perfect story that resonates with you and your target audience. Get the best book writing services today.'}/>
+    <HeroSection title={'Book Publishing & Editing Services – Your Manuscript Deserves a Professional Finish'} description={'Our expert publishing and editing specialists help refine, enhance, and professionally prepare your manuscript for the marketplace. From structural improvement to polished formatting, we ensure your book reflects excellence, clarity, and authorial confidence. Whether you’re working on fiction, nonfiction, memoir, business literature, or personal stories, we bring out the best in your writing and prepare it for readers, retailers, and publishing platforms.'}/>
     <AboutWriting/>
     <WritingStrategies/>
     <Portfolio title={"Our Recent Portfolio"} description={"Browse through a selection of our recent projects showcasing creativity, originality, and professional craftsmanship."}/>

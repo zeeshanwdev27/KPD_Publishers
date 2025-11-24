@@ -73,17 +73,14 @@ function AboutWriting() {
           className='text-3xl md:text-4xl lg:text-4xl font-semibold leading-tight text-slate-900'
           variants={itemVariants}
         >
-          KDP Publishers, where your story comes to life.
+         KDP Publishers - Where Your Manuscript Becomes a Market-Ready Book
         </motion.h1>
 
         <motion.p 
           className='text-slate-700 leading-relaxed'
           variants={itemVariants}
         >
-                   At KDP Publishers, we understand that every book has its own personality, audience, and 
-market potential. Our promotional team takes time to evaluate your book’s strengths, 
-positioning, genre, and reader demographic. Using these insights, we construct a custom 
-marketing plan that blends proven traditional methods with modern digital outreach. 
+        At KDP Publishers, we understand that every manuscript has its own tone, intention, and audience. Our editorial and publishing teams review your work to evaluate readability, structure, positioning, and target demographic. Using these insights, we refine your manuscript and prepare it for publishing with a customized plan that blends editorial craftsmanship with professional publishing standards. From manuscript polishing to final book formatting, we make your book ready to shine.
         </motion.p>
 
 

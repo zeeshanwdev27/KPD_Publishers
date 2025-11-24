@@ -129,7 +129,7 @@ function Navbar() {
 
           <li className="cursor-pointer transition-colors">
             <NavLink
-              to="/testimonials/"
+              to="/faqs"
               className={({ isActive }) =>
                 isActive ? "text-amber-500" : "hover:text-amber-500"
               }

@@ -73,8 +73,8 @@ function About() {
 
       {/* Left Image */}
       <motion.img 
-        src="/book3.png" 
-        className='w-80 h-80 lg:w-120 lg:h-110' 
+        src="/bookvid.gif" 
+        className='w-100 h-80 md:w-150 md:h-120 lg:w-180 lg:h-120' 
         alt="ebooks_images" 
         variants={imageVariants}
       />

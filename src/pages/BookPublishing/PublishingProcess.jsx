@@ -15,30 +15,44 @@ function PublishingProcess() {
   const cardsData = [
     {
       icon: "Step 01",
-      title: "Manuscript Submission",
+      title: "Our eBook",
       description:
-        "You share your draft along with instructions regarding formatting, printing, and publishing preferences. ",
+        "We assess your manuscript, genre, structure, and readiness for publishing",
       color: "from-amber-500 to-amber-500",
     },
     {
       icon: "Step 02",
-      title: "Editing & Proofing",
+      title: "Proofreading and Editing Support",
       description:
-        "A professional editor is assigned to refine, correct, enhance, and thoroughly proofread your manuscript. ",
+        "We provide proofreading, editorial refinement suggestions, formatting corrections, and clarity improvements so your manuscript is polished before publishing",
       color: "from-amber-500 to-amber-500",
     },
     {
       icon: "Step 03",
-      title: "Typesetting, Visuals & Layout",
+      title: "Formatting and Layout Preparation",
       description:
-        "After edits are finalized, we format the text, adjust typography, and add imagery or illustrations where required.",
+        "We prepare your manuscript with professional layout design, device compatibility formatting, and publishing standards alignment",
       color: "from-amber-500 to-amber-500",
     },
     {
       icon: "Step 04",
-      title: "Book Design & Final Build",
+      title: "Global Publishing Deployment",
       description:
-        "We create a polished book design—including cover art, back cover, author bio, synopsis, table of contents, and essential disclaimers.",
+        "Your eBook is uploaded, configured, and positioned for international visibility.",
+      color: "from-amber-500 to-amber-500",
+    },
+        {
+      icon: "Step 05",
+      title: "Reader Experience Optimization",
+      description:
+        "Your eBook is prepared for tablets, smartphones, e-readers, and interactive digital platforms.",
+      color: "from-amber-500 to-amber-500",
+    },
+        {
+      icon: "Step 06",
+      title: "Easy Updates and Revisions",
+      description:
+        "Modifications can be made post-publishing to keep your book accurate and current.",
       color: "from-amber-500 to-amber-500",
     },
   ];
@@ -52,9 +66,9 @@ function PublishingProcess() {
 
 
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
-          Our{" "}
+          Our eBook{" "} 
           <span className="bg-amber-500 bg-clip-text text-transparent">
-            Our Publishing Process
+            Publishing Process
           </span>{' '}
         </h1>
       </div>

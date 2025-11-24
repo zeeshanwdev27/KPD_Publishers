@@ -24,8 +24,8 @@ function MbOverlay({ isOpen, setIsOpen }) {
       ]
     },
     { 
-      text: "Testimonials", 
-      path: "/testimonials"
+      text: "FAQ'S", 
+      path: "/faqs"
     },
     { 
       text: "About Us", 

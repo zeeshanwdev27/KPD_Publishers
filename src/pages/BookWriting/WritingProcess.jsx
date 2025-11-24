@@ -1,13 +1,4 @@
 import React from "react";
-import {
-ChartNoAxesCombined ,
-ClockArrowUp ,
-ClockCheck ,
-Smartphone ,
-Handshake ,
-ThumbsUp ,
-Sparkles 
-} from "lucide-react";
 import { motion } from "framer-motion";
 
 function WritingProcess() {
@@ -15,30 +6,30 @@ function WritingProcess() {
   const cardsData = [
     {
       icon: "Step 01",
-      title: "Initial Consultation",
+      title: "Manuscript Review & Consultation",
       description:
-        "We begin our project by getting to know you and your book, learning about your goals and objectives for your marketing campaign. We’ll also discuss your target audience and any previous marketing efforts you’ve undertaken. This is what you will never find with any cheap service providers.",
+        "We begin by understanding your manuscript, genre, audience, and publishing expectations. This allows us to identify strengths, improvement areas, and the editorial direction needed.",
       color: "from-amber-500 to-amber-500",
     },
     {
       icon: "Step 02",
-      title: "Customized Marketing Plan",
+      title: "Editing & Refinement",
       description:
-        "Based on our initial consultation, we’ll develop a customized marketing plan that meets your specific needs. This plan may include a mix of traditional and digital marketing techniques tailored to your book’s unique strengths and weaknesses.",
+        "Our editors enhance your manuscript through structural adjustments, clarity improvements, tone alignment, grammar correction, pacing refinement, and stylistic consistency — ensuring your writing feels polished and engaging.",
       color: "from-amber-500 to-amber-500",
     },
     {
       icon: "Step 03",
-      title: "Implementation",
+      title: "Formatting & Publishing Preparation",
       description:
-        "Once you’ve approved our suggested self publish book marketing plan, we’ll begin implementing it. Our team of marketing experts will execute the plan, keeping you informed every step of the way.",
+        "Once edited, we prepare your manuscript for publishing, including layout alignment, chapter styling, typography enhancement, and digital or print formatting—ensuring compliance with publishing standards.",
       color: "from-amber-500 to-amber-500",
     },
     {
       icon: "Step 04",
-      title: "Monitoring and Adjustment",
+      title: "Final Review & Author Approval",
       description:
-        "We continuously monitor the performance of your marketing book online campaigns, making adjustments as needed to ensure the maximum effectiveness of our strategic book advertisements. We’ll provide regular updates on the progress of your campaign, so you always know how it’s performing.",
+        "We provide final revisions and a polished deliverable ready for upload, printing, or distribution. You approve every stage, ensuring the final book aligns perfectly with your vision and audience expectations.",
       color: "from-amber-500 to-amber-500",
     },
   ];

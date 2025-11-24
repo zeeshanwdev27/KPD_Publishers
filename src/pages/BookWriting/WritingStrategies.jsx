@@ -6,23 +6,23 @@ function WritingStrategies() {
   const cardsData = [
     {
       icon: <Users  className="w-8 h-8" />,
-      title: "Together through Thick and Thins",
+      title: "Professional Editing Support at Every Stage",
       description:
-        "With years of practice in the publishing industry, KDP Publishers has garnered expertise and knowledge to help you navigate the complex world of offline and online book marketing. Our marketing professionals stay relevant with latest trends and best practices to ensure that your book receives the attention it deserves.",
+        "With expert editors specializing in a wide range of genres, we help enhance clarity, tone, structure, and narrative flow. Whether you need developmental editing, line editing, or proofreading, we ensure your manuscript reads smoothly and maintains your authentic voice.",
       color: "from-amber-500 to-amber-500",
     },
     {
       icon: <HandHeart  className="w-8 h-8" />,
-      title: "Personalized Attention to Your Needs",
+      title: "Customized Publishing Guidance for Your Book",
       description:
-        "Our team of marketing experts takes the time to get to know you and your book, and we work with you every step of the way to develop a customized marketing plan that meets your specific needs. We also offer customized packages and affordable bundles in different seasons. Keep in touch with us.",
+        "We assess your goals and help create a tailored publishing roadmap, from formatting and layout to ISBN guidance, cover enhancement, and platform preparation. Your publishing journey remains personalized and strategically aligned with your vision.",
       color: "from-amber-500 to-amber-500",
     },
     {
       icon: <MessageCircle  className="w-8 h-8" />,
-      title: "Open Communication and Collaboration",
+      title: "Clear Collaboration and Author-Focused Communication",
       description:
-        "We believe that open communication and collaboration are key to a successful book marketing campaign. We keep you informed throughout the process, providing regular updates on the progress of your marketing campaign, unlike other book marketing companies. We remain in close contact, so you can request adjustments as needed. Our goal is to ensure that you feel",
+        "We believe in working side-by-side with authors. You receive updates, revision rounds, and open communication throughout the editing and publishing process. Your feedback matters, and your satisfaction remains our highest priority.",
       color: "from-amber-500 to-amber-500",
     },
   ];

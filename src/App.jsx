@@ -21,7 +21,7 @@ const App = createBrowserRouter(
 
         <Route index element={<Home />} />
         <Route path="/ourplans" element={<OurPlans />} />
-        <Route path="/testimonials" element={<Testimonials />} />
+        <Route path="/faqs" element={<Testimonials />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/book-marketing" element={<BookMarketing />} />

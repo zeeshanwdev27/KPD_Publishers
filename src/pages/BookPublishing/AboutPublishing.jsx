@@ -73,14 +73,14 @@ function AboutPublishing() {
           className='text-3xl md:text-4xl lg:text-4xl font-semibold leading-tight text-slate-900'
           variants={itemVariants}
         >
-          Professional Book Writers Available for Hire
+          Experience Advanced eBook Publishing Services
         </motion.h1>
 
         <motion.p 
           className='text-slate-700 leading-relaxed'
           variants={itemVariants}
         >
-          Everyone carries a story, but not everyone has the time, confidence, or writing expertise to craft a compelling manuscript that connects with readers. That’s why our book writing services pair you with seasoned writers who specialize in your niche—capturing your personality, tone, and message while refining it into a powerful narrative.
+          If you have a manuscript ready and want your message to reach readers everywhere, our eBook publishing services are the next step. Unlike publishing platforms that limit royalty earnings or take partial ownership, KDP Publishers ensures full control, complete transparency, and full royalty rights. Once your manuscript is ready, simply inform our team and we begin the publishing preparation
         </motion.p>
 
 
