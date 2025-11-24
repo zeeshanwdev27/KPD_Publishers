@@ -58,40 +58,7 @@ function Navbar() {
             </NavLink>
           </li>
 
-          <li className="cursor-pointer transition-colors">
-            <NavLink
-              to="/ourplans"
-              className={({ isActive }) =>
-                isActive ? "text-amber-500" : "hover:text-amber-500"
-              }
-            >
-              Our Plans
-            </NavLink>
-          </li>
-
-          <li className="cursor-pointer transition-colors">
-            <NavLink
-              to="/testimonials/"
-              className={({ isActive }) =>
-                isActive ? "text-amber-500" : "hover:text-amber-500"
-              }
-            >
-              Testimonials
-            </NavLink>
-          </li>
-
-          <li className="cursor-pointer transition-colors">
-            <NavLink
-              to="/about-us"
-              className={({ isActive }) =>
-                isActive ? "text-amber-500" : "hover:text-amber-500"
-              }
-            >
-              About Us
-            </NavLink>
-          </li>
-
-        {/* Services Dropdown */}
+                  {/* Services Dropdown */}
           <li className="relative group cursor-pointer">
             <span className="hover:text-(--main-color) transition-colors flex items-center gap-1">
               Services
@@ -148,6 +115,41 @@ function Navbar() {
               </li>
             </ul>
           </li>
+
+          <li className="cursor-pointer transition-colors">
+            <NavLink
+              to="/ourplans"
+              className={({ isActive }) =>
+                isActive ? "text-amber-500" : "hover:text-amber-500"
+              }
+            >
+              Our Plans
+            </NavLink>
+          </li>
+
+          <li className="cursor-pointer transition-colors">
+            <NavLink
+              to="/testimonials/"
+              className={({ isActive }) =>
+                isActive ? "text-amber-500" : "hover:text-amber-500"
+              }
+            >
+              FAQ'S
+            </NavLink>
+          </li>
+
+          <li className="cursor-pointer transition-colors">
+            <NavLink
+              to="/about-us"
+              className={({ isActive }) =>
+                isActive ? "text-amber-500" : "hover:text-amber-500"
+              }
+            >
+              About Us
+            </NavLink>
+          </li>
+
+
 
           <li className="cursor-pointer transition-colors">
             <NavLink

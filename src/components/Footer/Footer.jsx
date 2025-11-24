@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { MapPin, Phone, Mail } from 'lucide-react'
+import { MapPin, Phone, Mail, ChevronRight } from 'lucide-react'
+
 
 function Footer() {
   return (
@@ -58,18 +59,18 @@ function Footer() {
               </h2>
               <nav className="list-none">
                 <li className="mt-3">
-                  <Link to="/book-marketing" className="text-gray-600 hover:text-amber-500  cursor-pointer transition-colors duration-200 text-sm sm:text-base flex items-center justify-center sm:justify-start group">
-                    Book Marketing
+                  <Link to="/book-marketing" className="text-gray-600 hover:text-amber-500  cursor-pointer transition-colors duration-200 text-sm sm:text-base flex gap-2 items-center justify-center sm:justify-start group">
+                    <ChevronRight className='w-4 h-4'/> Book Marketing
                   </Link>
                 </li>
                 <li className="mt-3">
-                  <Link to="/book-writing" className="text-gray-600 hover:text-amber-500  cursor-pointer transition-colors duration-200 text-sm sm:text-base flex items-center justify-center sm:justify-start group">
-                    Book Writing
+                  <Link to="/book-writing" className="text-gray-600 hover:text-amber-500  cursor-pointer transition-colors duration-200 text-sm sm:text-base flex gap-2 items-center justify-center sm:justify-start group">
+                    <ChevronRight className='w-4 h-4'/> Book Writing
                   </Link>
                 </li>
                 <li className="mt-3">
-                  <Link to="/book-publishing" className="text-gray-600 hover:text-amber-500 cursor-pointer transition-colors duration-200 text-sm sm:text-base flex items-center justify-center sm:justify-start group">
-                    Book Publishing
+                  <Link to="/book-publishing" className="text-gray-600 hover:text-amber-500 cursor-pointer transition-colors duration-200 text-sm sm:text-base flex gap-2 items-center justify-center sm:justify-start group">
+                    <ChevronRight className='w-4 h-4'/> Book Publishing
                   </Link>
                 </li>
               </nav>
@@ -82,13 +83,13 @@ function Footer() {
               </h2>
               <nav className="list-none">
                 <li className="mt-3">
-                  <Link to="#" className="text-gray-600 hover:text-amber-500  cursor-pointer transition-colors duration-200 text-sm sm:text-base flex items-center justify-center sm:justify-start group">
-                    Privacy Policy 
+                  <Link to="#" className="text-gray-600 hover:text-amber-500  cursor-pointer transition-colors duration-200 text-sm sm:text-base flex gap-2 items-center justify-center sm:justify-start group">
+                   <ChevronRight className='w-4 h-4'/> Privacy Policy 
                   </Link>
                 </li>
                 <li className="mt-3">
-                  <Link to="#" className="text-gray-600 hover:text-amber-500  cursor-pointer transition-colors duration-200 text-sm sm:text-base flex items-center justify-center sm:justify-start group">
-                    Terms and Conditions
+                  <Link to="#" className="text-gray-600 hover:text-amber-500  cursor-pointer transition-colors duration-200 text-sm sm:text-base flex gap-2 items-center justify-center sm:justify-start group">
+                    <ChevronRight className='w-4 h-4'/> Terms and Conditions
                   </Link>
                 </li>
               </nav>
