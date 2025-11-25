@@ -71,7 +71,7 @@ function Navbar() {
             <ul className="absolute left-0 top-full hidden group-hover:block bg-white shadow-lg rounded-md py-2 w-48 z-50">
               <li>
                 <NavLink
-                  to="/book-marketing"
+                  to="/book-marketing-services"
                   className={({ isActive }) =>
                     `block px-4 py-2 transition-colors ${
                       isActive
@@ -86,7 +86,7 @@ function Navbar() {
 
               <li>
                 <NavLink
-                  to="/book-writing"
+                  to="/book-writing-services"
                   className={({ isActive }) =>
                     `block px-4 py-2 transition-colors ${
                       isActive
@@ -101,7 +101,7 @@ function Navbar() {
 
               <li>
                 <NavLink
-                  to="/book-publishing"
+                  to="/book-publishing-services"
                   className={({ isActive }) =>
                     `block px-4 py-2 transition-colors ${
                       isActive

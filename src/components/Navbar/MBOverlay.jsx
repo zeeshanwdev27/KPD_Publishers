@@ -18,9 +18,9 @@ function MbOverlay({ isOpen, setIsOpen }) {
     { 
       text: "Services", 
       submenu: [
-        { text: "Book Marketing", path: "/book-marketing" },
-        { text: "Book Writing", path: "/book-writing" },
-        { text: "Book Publishing", path: "/book-publishing" },
+        { text: "Book Marketing", path: "/book-marketing-services" },
+        { text: "Book Writing", path: "/book-writing-services" },
+        { text: "Book Publishing", path: "/book-publishing-services" },
       ]
     },
     { 

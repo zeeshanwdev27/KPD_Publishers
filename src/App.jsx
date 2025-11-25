@@ -26,9 +26,9 @@ const App = createBrowserRouter(
         <Route path="/faqs" element={<Testimonials />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/book-marketing" element={<BookMarketing />} />
-        <Route path="/book-writing" element={<BookWriting />} />
-        <Route path="/book-publishing" element={<BookPublishing />} />
+        <Route path="/book-marketing-services" element={<BookMarketing />} />
+        <Route path="/book-writing-services" element={<BookWriting />} />
+        <Route path="/book-publishing-services" element={<BookPublishing />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/termsandconditions" element={<TermsAndConditions />} />
       </Route>
