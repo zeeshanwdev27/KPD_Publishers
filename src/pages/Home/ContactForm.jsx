@@ -94,7 +94,7 @@ function ContactForm() {
 
             try {
               const response = await fetch(
-                "https://ebookwrites.com/sendmail.php",
+                "https://kdppublications.com/sendmail.php",
                 {
                   method: "POST",
                   body: formData,
@@ -259,6 +259,7 @@ function ContactForm() {
               Discuss Your Project
             </p>
             <motion.button 
+              onClick={() => window.$crisp.push(["do", "chat:open"])}
               className="cursor-pointer w-full bg-transparent border border-amber-500 rounded-xl p-4 text-sm lg:text-lg font-medium text-amber-500 hover:bg-amber-500 hover:text-white transition-all duration-300 group-hover:shadow-md"
               variants={buttonVariants}
               whileHover="hover"
@@ -281,14 +282,14 @@ function ContactForm() {
               </span>
             </div>
             <p className="font-semibold text-gray-700 mb-3">Make a Call</p>
-            <Link to="tel:+15512884168">
+            <Link to="tel:#">
               <motion.button 
                 className="cursor-pointer w-full bg-transparent border border-amber-500 rounded-xl p-4 text-sm lg:text-lg font-medium text-amber-500 hover:bg-amber-500 hover:text-white transition-all duration-300 group-hover:shadow-md"
                 variants={buttonVariants}
                 whileHover="hover"
                 whileTap="tap"
               >
-                +1-551-288-4168
+                +1-111-111-1111
               </motion.button>
             </Link>
           </motion.div>
@@ -305,15 +306,15 @@ function ContactForm() {
                 <Mail />
               </span>
             </div>
-            <p className="font-semibold text-gray-700 mb-3">Send us Email</p>
-            <Link to="mailto:info@ebookwrites.com">
+            <p className="font-medium text-gray-700 mb-3">Send us Email</p>
+            <Link to="mailto:info@kdppublications.com">
               <motion.button 
-                className="cursor-pointer w-full bg-transparent border border-amber-500 rounded-xl p-4 text-sm lg:text-lg font-medium text-amber-500 hover:bg-amber-500 hover:text-white transition-all duration-300 group-hover:shadow-md"
+                className="cursor-pointer w-full bg-transparent border border-amber-500 rounded-xl py-4 px-2  text-sm lg:text-lg font-medium text-amber-500 hover:bg-amber-500 hover:text-white transition-all duration-300 group-hover:shadow-md"
                 variants={buttonVariants}
                 whileHover="hover"
                 whileTap="tap"
               >
-                Info@ebookwrites.com
+                info@kdppublications.com
               </motion.button>
             </Link>
           </motion.div>

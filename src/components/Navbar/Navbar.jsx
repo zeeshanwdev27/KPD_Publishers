@@ -47,7 +47,7 @@ function Navbar() {
 
         {/* Menu - Hidden on small/medium, visible on large */}
         <ul className="hidden lg:flex gap-5 justify-center items-center">
-          <li className="cursor-pointer transition-colors">
+          <li className="cursor-pointer transition-colors font-medium">
             <NavLink
               to="/"
               className={({ isActive }) =>
@@ -59,7 +59,7 @@ function Navbar() {
           </li>
 
                   {/* Services Dropdown */}
-          <li className="relative group cursor-pointer">
+          <li className="relative group cursor-pointer font-medium">
             <span className="hover:text-(--main-color) transition-colors flex items-center gap-1">
               Services
               <ChevronDown
@@ -127,7 +127,7 @@ function Navbar() {
             </NavLink>
           </li> */}
 
-          <li className="cursor-pointer transition-colors">
+          <li className="cursor-pointer transition-colors font-medium">
             <NavLink
               to="/faqs"
               className={({ isActive }) =>
@@ -138,7 +138,7 @@ function Navbar() {
             </NavLink>
           </li>
 
-          <li className="cursor-pointer transition-colors">
+          <li className="cursor-pointer transition-colors font-medium">
             <NavLink
               to="/about-us"
               className={({ isActive }) =>
@@ -151,7 +151,7 @@ function Navbar() {
 
 
 
-          <li className="cursor-pointer transition-colors">
+          <li className="cursor-pointer transition-colors font-medium">
             <NavLink
               to="/contact-us/"
               className={({ isActive }) =>
@@ -167,7 +167,7 @@ function Navbar() {
         {/* Call To Action - Hidden on small/medium, visible on large */}
         <div className="hidden lg:flex justify-center items-center gap-4">
           <Link
-            to="tel:+15512884168"
+            to="tel:#"
             className="group flex items-center gap-3 px-5 py-3 rounded-md  border border-amber-500  transition-all duration-300 hover:scale-105 hover:shadow-lg"
           >
             <div className="relative">
@@ -175,7 +175,7 @@ function Navbar() {
               <div className="absolute -top-0.5 -right-0.5 w-2 h-2 bg-amber-500  rounded-full animate-ping"></div>
             </div>
             <span className="text-amber-500   font-semibold text-sm">
-              +1-551-288-4168
+              +1-111-111-1111
             </span>
           </Link>
            <Link to="/contact-us">

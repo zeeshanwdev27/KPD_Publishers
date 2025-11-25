@@ -27,15 +27,15 @@ function Footer() {
             <div className="mt-4 space-y-2 max-w-md mx-auto lg:mx-0">
               <div className="flex  justify-center lg:justify-start text-sm sm:text-sm text-gray-600">
                 <MapPin className="w-4 h-4 mr-2 shrink-0 mt-1" />
-                <span>18211 Dalyell Dr, Richmond, TX 77407</span>
+                <span>1800 S Bell St, Arlington, VA 22202</span>
               </div>
               <div className="flex items-center justify-center lg:justify-start text-sm sm:text-sm text-gray-600">
                 <Phone className="w-4 h-4 mr-2 shrink-0" />
-                <span>+1-551-288-4168</span>
+                <span>+1-111-111-1111</span>
               </div>
               <div className="flex items-center justify-center lg:justify-start text-sm sm:text-sm text-gray-600">
                 <Mail className="w-4 h-4 mr-2 shrink-0" />
-                <Link to={"mailto:info@ebookwrites.com"} className="underline hover:text-amber-500 " >Info@ebookwrites.com</Link>
+                <Link to={"mailto:info@kdppublications.com"} className="underline hover:text-amber-500 " >info@kdppublications.com</Link>
               </div>
             </div>
           </div>

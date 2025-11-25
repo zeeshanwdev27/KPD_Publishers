@@ -54,6 +54,7 @@ function AboutMarketing() {
 
   return (
     <motion.div 
+     id='next-section'
       className='min-h-[70vh] flex flex-col lg:flex-row justify-center lg:items-center py-8 px-4 md:px-15 lg:py-12 lg:gap-40 mx-auto text-black'
       initial="hidden"
       whileInView="visible"

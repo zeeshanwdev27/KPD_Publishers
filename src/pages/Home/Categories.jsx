@@ -4,7 +4,7 @@ import { Truck, CheckCheck, Smile  } from "lucide-react";
 
 function Categories() {
   return (
-    <div className='h-full lg:h-[20vh] mt-10 md:mt-10 lg:mt-0 lg:py-15 px-5 flex flex-col items-center gap-15'>
+    <div id='next-section' className='h-full lg:h-[20vh] mt-10 md:mt-10 lg:mt-0 lg:py-15 px-5 flex flex-col items-center gap-15'>
 
         <div className='flex flex-col md:flex-row gap-5 lg:gap-10 pt-5'>
 

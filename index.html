@@ -6,16 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KDP Publishers</title>
     <script type="text/javascript">
-  window.$crisp = [];
-  window.CRISP_WEBSITE_ID = "6cabd14d-56c3-4c2f-9815-1a893fcf72cb";
-  (function () {
-    var d = document;
-    var s = d.createElement("script");
-    s.src = "https://client.crisp.chat/l.js";
-    s.async = 1;
-    d.getElementsByTagName("head")[0].appendChild(s);
-  })();
-</script>
+      window.$crisp = [];
+      window.CRISP_WEBSITE_ID = "6cabd14d-56c3-4c2f-9815-1a893fcf72cb";
+
+      (function () {
+        var d = document;
+        var s = d.createElement("script");
+        s.src = "https://client.crisp.chat/l.js";
+        s.async = 1;
+        d.getElementsByTagName("head")[0].appendChild(s);
+      })();
+
+      // Auto-open chat after 2 seconds
+      window.addEventListener("load", function() {
+        setTimeout(function() {
+          window.$crisp.push(["do", "chat:open"]);
+        }, 2000); // delay in milliseconds (2000 = 2 seconds)
+      });
+    </script>
   </head>
   <body>
     <div id="root"></div>

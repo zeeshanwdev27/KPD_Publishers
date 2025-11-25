@@ -198,12 +198,12 @@ function MbOverlay({ isOpen, setIsOpen }) {
             {/* Optional: Call to Action Buttons */}
             <div className="flex-shrink-0 p-4 border-t border-gray-100 space-y-3 w-full md:max-w-2xl md:mx-auto">
               <Link
-               to="tel:+5512884168"
+               to="tel:#"
                 onClick={handleLinkClick}
                 className="flex items-center justify-center gap-2 w-full p-4 bg-gradient-to-r from-amber-500 to-amber-500 hover:from-amber-500 hover:to-amber-500 text-white rounded-xl font-semibold transition-all duration-300 active:scale-95"
               >
                 <Phone className="w-5 h-5" />
-                +551-288-4168
+                +1-111-111-1111
               </Link>
               <Link
                 to="#"

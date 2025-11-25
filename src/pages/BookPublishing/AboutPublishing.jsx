@@ -59,6 +59,7 @@ function AboutPublishing() {
       whileInView="visible"
       viewport={{ once: true, margin: "-50px" }}
       variants={containerVariants}
+      id='next-section'
     >
 
 

@@ -81,8 +81,13 @@ function HeroSection({title, description}) {
             }}
             whileTap={{ scale: 0.95 }}
             className='bg-amber-500 rounded-md p-3 w-60 cursor-pointer mt-5 lg:mt-0'
+            onClick={() => {
+    document.getElementById("next-section")?.scrollIntoView({
+      behavior: "smooth"
+    });
+  }}
           >
-            SHOP NOW
+            LET'S GO!
           </motion.button>
         </motion.div>
 
