@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import MbOverlay from './MBOverlay.jsx'
 import { Link, NavLink } from "react-router-dom";
-import { ChevronDown, Phone } from "lucide-react";
+import { ChevronDown, Mail } from "lucide-react";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -166,18 +166,18 @@ function Navbar() {
 
         {/* Call To Action - Hidden on small/medium, visible on large */}
         <div className="hidden lg:flex justify-center items-center gap-4">
-          {/* <Link
-            to="tel:#"
-            className="group flex items-center gap-3 px-5 py-3 rounded-md  border border-amber-500  transition-all duration-300 hover:scale-105 hover:shadow-lg"
+          <Link
+            to={"mailto:info@kdppublications.com"}
+            className="group flex items-center gap-2 px-5 py-3 rounded-md border border-amber-500  transition-all duration-300 hover:scale-105 hover:shadow-lg"
           >
             <div className="relative">
-              <Phone className="w-5 h-5 text-amber-500 " />
+              <Mail className="w-5 h-5 text-amber-500 " />
               <div className="absolute -top-0.5 -right-0.5 w-2 h-2 bg-amber-500  rounded-full animate-ping"></div>
             </div>
-            <span className="text-amber-500   font-semibold text-sm">
-              +1-111-111-1111
+            <span className="text-amber-500 font-semibold text-sm">
+              info@kdppublications.com
             </span>
-          </Link> */}
+          </Link>
            <Link to="/contact-us">
           <button className="cursor-pointer px-6 py-3 rounded-md border border-amber-500 bg-amber-500  text-white hover:bg-transparent hover:text-amber-500  transition-all duration-200 font-medium">
             Contact With Us
