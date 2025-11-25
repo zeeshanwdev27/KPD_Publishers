@@ -65,7 +65,7 @@ function PrivacyPolicyContent() {
           className="text-gray-700 leading-relaxed text-base sm:text-lg"
           variants={itemVariants}
         >
-          KPD-Publishers is committed to protecting user information and ensuring responsible data handling. 
+          KPD-Publishing is committed to protecting user information and ensuring responsible data handling. 
           This policy outlines how information is collected, used, and safeguarded when visitors browse 
           the website, submit inquiries, or request services.
         </motion.p>
@@ -86,7 +86,7 @@ function PrivacyPolicyContent() {
             <FileText className="h-6 w-6 text-blue-600 mr-3" />
             <h2 className="text-xl font-semibold text-gray-900">Information Collected</h2>
           </div>
-          <p className="text-gray-600 mb-4 text-sm">KPD-Publishers may collect:</p>
+          <p className="text-gray-600 mb-4 text-sm">KPD-Publishing may collect:</p>
           <ul className="space-y-2">
             {['Name, email, phone number', 'Project details and submitted materials', 'Browser, device, and analytical data'].map((item, index) => (
               <motion.li 
@@ -185,7 +185,7 @@ function PrivacyPolicyContent() {
             className="text-gray-700 text-sm leading-relaxed"
             variants={itemVariants}
           >
-            KPD-Publishers is not responsible for external website policies or content.
+            KPD-Publishing is not responsible for external website policies or content.
           </motion.p>
         </motion.section>
 
@@ -228,35 +228,26 @@ function PrivacyPolicyContent() {
         <h2 className="text-2xl font-bold text-white mb-6 text-center">
           Contact for Privacy Matters
         </h2>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
           <motion.div 
             className="flex flex-col items-center text-center p-4 bg-white rounded-lg shadow-sm"
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 400 }}
           >
-            <Mail className="h-8 w-8 text-blue-600 mb-3" />
+            <Mail className="h-8 w-8 text-amber-600 mb-3" />
             <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
-            <p className="text-gray-600 text-sm">abc@gmail.com</p>
+            <a href="mailto:info@kdppublications.com" className="text-amber-600 underline text-sm">info@kdppublications.com</a>
           </motion.div>
 
-          <motion.div 
-            className="flex flex-col items-center text-center p-4 bg-white rounded-lg shadow-sm"
-            whileHover={{ scale: 1.05 }}
-            transition={{ type: "spring", stiffness: 400 }}
-          >
-            <Phone className="h-8 w-8 text-green-600 mb-3" />
-            <h3 className="font-semibold text-gray-900 mb-1">Phone</h3>
-            <p className="text-gray-600 text-sm">+000000000000</p>
-          </motion.div>
 
           <motion.div 
             className="flex flex-col items-center text-center p-4 bg-white rounded-lg shadow-sm sm:col-span-2 lg:col-span-1"
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 400 }}
           >
-            <MapPin className="h-8 w-8 text-red-600 mb-3" />
+            <MapPin className="h-8 w-8 text-amber-600 mb-3" />
             <h3 className="font-semibold text-gray-900 mb-1">Address</h3>
-            <p className="text-gray-600 text-sm">abc</p>
+            <p className="text-gray-600 text-sm">1800 S Bell St, Arlington, VA 22202</p>
           </motion.div>
         </div>
       </motion.section>

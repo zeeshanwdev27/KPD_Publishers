@@ -17,7 +17,7 @@ const TermsAndConditionsContent = () => {
       id: 'information-collected',
       title: 'Information Collected',
       icon: <Shield className="w-5 h-5" />,
-      content: 'KPD-Publishers may collect:',
+      content: 'KPD-Publishing may collect:',
       items: [
         'Name, email, phone number',
         'Project details and submitted materials',
@@ -52,7 +52,7 @@ const TermsAndConditionsContent = () => {
       id: 'third-party-links',
       title: 'Third-Party Links',
       icon: <LinkIcon className="w-5 h-5" />,
-      content: 'KPD-Publishers is not responsible for external website policies or content.'
+      content: 'KPD-Publishing is not responsible for external website policies or content.'
     },
     {
       id: 'user-rights',
@@ -68,9 +68,8 @@ const TermsAndConditionsContent = () => {
   ];
 
   const contactInfo = [
-    { icon: <Mail className="w-5 h-5" />, text: 'Email: [Insert Email]' },
-    { icon: <Phone className="w-5 h-5" />, text: 'Phone: [Insert Phone Number]' },
-    { icon: <MapPin className="w-5 h-5" />, text: 'Address: [Insert Address]' }
+    { icon: <Mail className="w-5 h-5" />, text: 'Email: info@kdppublications.com' },
+    { icon: <MapPin className="w-5 h-5" />, text: 'Address: 1800 S Bell St, Arlington, VA 22202' }
   ];
 
   return (
@@ -90,7 +89,7 @@ const TermsAndConditionsContent = () => {
         >
 
           <p className="text-gray-700 max-w-3xl mx-auto leading-relaxed">
-            KPD-Publishers is committed to protecting user information and ensuring responsible data handling. 
+            KPD-Publishing is committed to protecting user information and ensuring responsible data handling. 
             This policy outlines how information is collected, used, and safeguarded when visitors browse the website, 
             submit inquiries, or request services.
           </p>
@@ -168,7 +167,7 @@ const TermsAndConditionsContent = () => {
           <h2 className="text-2xl font-bold text-white mb-6 text-center">
             Contact for Privacy Matters
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {contactInfo.map((contact, index) => (
               <motion.div
                 key={index}

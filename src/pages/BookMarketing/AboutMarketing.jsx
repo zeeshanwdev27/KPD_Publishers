@@ -81,7 +81,7 @@ function AboutMarketing() {
           className='text-slate-700 leading-relaxed'
           variants={itemVariants}
         >
-          At KDP Publishers, we understand that every book has its own personality, audience, and 
+          At KDP Publications, we understand that every book has its own personality, audience, and 
 market potential. Our promotional team takes time to evaluate your book’s strengths, 
 positioning, genre, and reader demographic. Using these insights, we construct a custom 
 marketing plan that blends proven traditional methods with modern digital outreach. 
@@ -93,6 +93,7 @@ marketing plan that blends proven traditional methods with modern digital outrea
           variants={itemVariants}
         >
           <motion.button 
+          onClick={() => window.$crisp.push(["do", "chat:open"])}
             className='cursor-pointer bg-amber-500 text-white px-6 py-3 rounded-lg font-semibold transition duration-300 shadow-lg'
             variants={buttonVariants}
             whileHover="hover"
@@ -101,14 +102,14 @@ marketing plan that blends proven traditional methods with modern digital outrea
             Chat With Us
           </motion.button>
       
-          <Link to="tel:+5512884168">
+          <Link to="/contact-us">
             <motion.button 
               className='w-full cursor-pointer bg-amber-500 border-2 border-amber-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-transparent hover:border-amber-500 hover:text-amber-500 transition duration-300'
               variants={buttonVariants}
               whileHover="hover"
               whileTap="tap"
             >
-              Talk To An Expert
+              Contact With Us
             </motion.button>
           </Link>
 

@@ -11,7 +11,7 @@ import ContactForm from './ContactForm.jsx'
 function Home() {
   return (
     <>
-    <HeroSection title={'Book Publishers in USA - A BestSellers Awaits.'} description={'As experts in book writing, publishing, and marketing, KDP Publishers is your one-stop shop for all your book publishing services needs. We offer end-to-end solutions that will help you transform your manuscript into a bestseller, leaving a lasting impact on your readers. With personalized pricing packages and discount bundles you can get the best of what you desire!'}/>
+    <HeroSection title={'Book Publications in USA - A BestSellers Awaits.'} description={'As experts in book writing, publishing, and marketing, KDP Publications is your one-stop shop for all your book publishing services needs. We offer end-to-end solutions that will help you transform your manuscript into a bestseller, leaving a lasting impact on your readers. With personalized pricing packages and discount bundles you can get the best of what you desire!'}/>
     <Categories/>
     <Portfolio title='Book Categories'/>
     <About/>

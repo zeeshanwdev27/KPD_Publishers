@@ -5,7 +5,7 @@ import PrivacyPolicyContent from './PrivacyPolicyContent.jsx'
 function PrivacyPolicy() {
   return (
     <>
-    <Header title={'Privacy Policy'} description={'KPD-Publishers'}/>
+    <Header title={'Privacy Policy'} description={'KPD-Publishing'}/>
     <PrivacyPolicyContent/>
       
     </>

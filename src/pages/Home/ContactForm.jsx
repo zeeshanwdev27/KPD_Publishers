@@ -241,7 +241,7 @@ function ContactForm() {
 
       {/* Contact Methods */}
       <motion.div 
-        className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-3 gap-6 mt-8"
+        className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-6 mt-8"
         variants={containerVariants}
       >
         <motion.div className="text-center group" variants={itemVariants}>
@@ -270,7 +270,7 @@ function ContactForm() {
           </motion.div>
         </motion.div>
 
-        <motion.div className="text-center group" variants={itemVariants}>
+        {/* <motion.div className="text-center group" variants={itemVariants}>
           <motion.div 
             className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 group-hover:shadow-xl group-hover:border-amber-500/20 transition-all duration-300"
             variants={cardVariants}
@@ -293,7 +293,7 @@ function ContactForm() {
               </motion.button>
             </Link>
           </motion.div>
-        </motion.div>
+        </motion.div> */}
 
         <motion.div className="text-center group" variants={itemVariants}>
           <motion.div 

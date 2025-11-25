@@ -81,7 +81,7 @@ function AboutPublishing() {
           className='text-slate-700 leading-relaxed'
           variants={itemVariants}
         >
-          If you have a manuscript ready and want your message to reach readers everywhere, our eBook publishing services are the next step. Unlike publishing platforms that limit royalty earnings or take partial ownership, KDP Publishers ensures full control, complete transparency, and full royalty rights. Once your manuscript is ready, simply inform our team and we begin the publishing preparation
+          If you have a manuscript ready and want your message to reach readers everywhere, our eBook publishing services are the next step. Unlike publishing platforms that limit royalty earnings or take partial ownership, KDP Publications ensures full control, complete transparency, and full royalty rights. Once your manuscript is ready, simply inform our team and we begin the publishing preparation
         </motion.p>
 
 
@@ -90,6 +90,7 @@ function AboutPublishing() {
           variants={itemVariants}
         >
           <motion.button 
+           onClick={() => window.$crisp.push(["do", "chat:open"])}
             className='cursor-pointer bg-amber-500 text-white px-6 py-3 rounded-lg font-semibold transition duration-300 shadow-lg'
             variants={buttonVariants}
             whileHover="hover"
@@ -98,14 +99,14 @@ function AboutPublishing() {
             Chat With Us
           </motion.button>
       
-          <Link to="tel:+5512884168">
+          <Link to="/contact-us">
             <motion.button 
               className='w-full cursor-pointer bg-amber-500 border-2 border-amber-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-transparent hover:border-amber-500 hover:text-amber-500 transition duration-300'
               variants={buttonVariants}
               whileHover="hover"
               whileTap="tap"
             >
-              Talk To An Expert
+              Contact With Us
             </motion.button>
           </Link>
 

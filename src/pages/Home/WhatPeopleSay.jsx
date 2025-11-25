@@ -16,42 +16,42 @@ import "swiper/css/autoplay";
 const testimonials = [
   {
     id: 1,
-    text: "KDP Publishers exceeded my expectations in every way. Their editing quality was outstanding, and their marketing efforts gave my book the visibility it truly deserved. I’m genuinely delighted with the final outcome and highly recommend their services.",
+    text: "KDP Publications exceeded my expectations in every way. Their editing quality was outstanding, and their marketing efforts gave my book the visibility it truly deserved. I’m genuinely delighted with the final outcome and highly recommend their services.",
     rating: 5,
     name: "Olivia Harper",
     initials: "OH"
   },
   {
     id: 2,
-    text: "KDP Publishers made my dream of becoming a published author come true. They guided me throughout the entire process with helpful feedback and continuous support. Their self-publishing services are perfect for anyone looking to launch their book successfully. ",
+    text: "KDP Publications made my dream of becoming a published author come true. They guided me throughout the entire process with helpful feedback and continuous support. Their self-publishing services are perfect for anyone looking to launch their book successfully. ",
     rating: 5,
     name: "Michael Turner",
     initials: "MT"
   },
   {
     id: 3,
-    text: "I was thoroughly impressed by the professionalism and expertise at KDP Publishers. Their writing, editing, and design teams worked together seamlessly to create a beautifully crafted book. Their creativity and dedication truly set them apart.",
+    text: "I was thoroughly impressed by the professionalism and expertise at KDP Publications. Their writing, editing, and design teams worked together seamlessly to create a beautifully crafted book. Their creativity and dedication truly set them apart.",
     rating: 4,
     name: "Sophia Bennett ",
     initials: "SB"
   },
   {
     id: 4,
-    text: "My publishing experience with KDP Publishers was completely stress-free. They handled everything—from book layout to marketing strategy—allowing me to focus solely on writing. I’m extremely satisfied and highly recommend them to aspiring authors.",
+    text: "My publishing experience with KDP Publications was completely stress-free. They handled everything—from book layout to marketing strategy—allowing me to focus solely on writing. I’m extremely satisfied and highly recommend them to aspiring authors.",
     rating: 5,
     name: "Daniel Brooks",
     initials: "DB"
   },
   {
     id: 5,
-    text: "KDP Publishers transformed my manuscript into a polished, captivating book. Their marketing team helped me reach a wider audience and elevate my author brand. For writers looking to take their book to the next level, this agency is unmatched. ",
+    text: "KDP Publications transformed my manuscript into a polished, captivating book. Their marketing team helped me reach a wider audience and elevate my author brand. For writers looking to take their book to the next level, this agency is unmatched. ",
     rating: 5,
     name: "Ava Mitchell",
     initials: "LW"
   },
     {
     id: 6,
-    text: "KDP Publishers provided a complete publishing solution, covering writing, editing, design, and promotion. The entire process was smooth, professional, and perfectly managed. I’m thrilled with the results and look forward to working with them again in the future.",
+    text: "KDP Publications provided a complete publishing solution, covering writing, editing, design, and promotion. The entire process was smooth, professional, and perfectly managed. I’m thrilled with the results and look forward to working with them again in the future.",
     rating: 5,
     name: "Ethan Collins",
     initials: "EC"

@@ -6,8 +6,8 @@ function FAQS() {
 
     const faqs = [
         {
-            question: "What is KDP Publishers and What Do You Do?",
-            answer: "We are a team of dedicated professionals who can help with your book writing, publishing, and promotion. KDP Publishers mainly focuses on writing services. However, we also can help with book marketing, video book trailers, as well as eBook publishing.",
+            question: "What is KDP Publications and What Do You Do?",
+            answer: "We are a team of dedicated professionals who can help with your book writing, publishing, and promotion. KDP Publications mainly focuses on writing services. However, we also can help with book marketing, video book trailers, as well as eBook publishing.",
         },
         {
             question: "Can You Help with My Book Publishing and Marketing?",

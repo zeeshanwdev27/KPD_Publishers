@@ -89,7 +89,7 @@ function About() {
           className='text-3xl md:text-4xl lg:text-4xl font-semibold leading-tight text-slate-900'
           variants={itemVariants}
         >
-         KDP Publishers, where your story comes to life.
+         KDP Publications, where your story comes to life.
         </motion.h1>
 
         <motion.p 
@@ -123,6 +123,7 @@ function About() {
           variants={itemVariants}
         >
           <motion.button 
+           onClick={() => window.$crisp.push(["do", "chat:open"])}
             className='cursor-pointer bg-amber-500 text-white px-6 py-3 rounded-lg font-semibold transition duration-300 shadow-lg'
             variants={buttonVariants}
             whileHover="hover"
@@ -131,14 +132,14 @@ function About() {
             Chat With Us
           </motion.button>
       
-          <Link to="tel:+5512884168">
+          <Link to="/contact-us">
             <motion.button 
               className='w-full cursor-pointer bg-amber-500 border-2 border-amber-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-transparent hover:border-amber-500 hover:text-amber-500 transition duration-300'
               variants={buttonVariants}
               whileHover="hover"
               whileTap="tap"
             >
-              Talk To An Expert
+              Contact With Us
             </motion.button>
           </Link>
 

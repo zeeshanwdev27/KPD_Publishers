@@ -106,7 +106,7 @@ function Footer() {
         <div className="container px-4 sm:px-6 lg:px-8 py-4 mx-auto">
           <div className="flex flex-col md:flex-row justify-center md:justify-between items-center">
             <p className="text-sm sm:text-base text-white text-center md:text-left order-2 md:order-1 mt-2 md:mt-0">
-              Copyright © 2025 EbookWrites. All Rights Reserved.
+              Copyright © 2025 KPD Publications. All Rights Reserved.
             </p>
           </div>
         </div>

@@ -5,7 +5,7 @@ import TermsAndConditionsContent from './TermsAndConditionsContent.jsx'
 function TermsAndConditions() {
   return (
     <>
-    <Header title={'Terms And Conditions'} description={'KPD-Publishers'}/>
+    <Header title={'Terms And Conditions'} description={'KPD-Publishing'}/>
     <TermsAndConditionsContent/>
       
     </>

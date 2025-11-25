@@ -148,15 +148,16 @@ function YouAreTheBoss() {
             whileTap={{ scale: 0.95 }}
             className="inline-block"
           >
-            <Link to="tel:#"
+            <button 
+            onClick={() => window.$crisp.push(["do", "chat:open"])}
 
-              className="bg-white text-amber-500 px-8 py-4 rounded-xl font-bold text-lg sm:text-xl shadow-lg hover:shadow-xl transition-all duration-200 inline-flex items-center gap-3"
+              className="cursor-pointer bg-white text-amber-500 px-8 py-4 rounded-xl font-bold text-lg sm:text-xl shadow-lg hover:shadow-xl transition-all duration-200 inline-flex items-center gap-3"
             >
-              <span>Call Now: +1-111-111-1111</span>
               <div className="w-2 h-2 bg-amber-500 rounded-full animate-pulse"></div>
-            </Link>
+              <span>CHAT NOW</span>
+            </button>
           </motion.div>
-          <p className="text-black mt-4 text-sm">Toll Free • 24/7 Available</p>
+          <p className="text-black mt-4 text-sm">24/7 • Customer Support Available</p>
         </motion.div>
       </div>
     </div>

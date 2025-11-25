@@ -8,7 +8,7 @@ function MarketingStrategies() {
       icon: <Users  className="w-8 h-8" />,
       title: "Standing Beside You All the Way",
       description:
-        "With extensive experience in the publishing and promotional world, KDP Publishers has the expertise to guide authors through the fast-changing landscape of online and offline book marketing. Our team remains aligned with emerging tools, platforms, and industry practices so your book gets the attention and momentum it deserves.",
+        "With extensive experience in the publishing and promotional world, KDP Publications has the expertise to guide authors through the fast-changing landscape of online and offline book marketing. Our team remains aligned with emerging tools, platforms, and industry practices so your book gets the attention and momentum it deserves.",
       color: "from-amber-500 to-amber-500",
     },
     {
