@@ -1,10 +1,33 @@
-import React, { useState } from "react";
+import React, { useState , useEffect } from "react";
 import MbOverlay from './MBOverlay.jsx'
 import { Link, NavLink } from "react-router-dom";
 import { ChevronDown, Mail } from "lucide-react";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    useEffect(() => {
+      const handleLiveChatVisibility = () => {
+        // Check if LiveChatWidget is available
+        if (typeof window.LiveChatWidget === 'undefined') {
+          console.log('LiveChatWidget not loaded yet');
+          return;
+        }
+    
+        if (isMenuOpen) {
+          // When overlay opens, hide the widget
+          window.LiveChatWidget.call("hide"); 
+        } else {
+          // When overlay closes, show the widget
+          window.LiveChatWidget.call("minimize"); 
+        }
+      };
+    
+      // Add a small delay to ensure the widget is ready
+      const timer = setTimeout(handleLiveChatVisibility, 100);
+      
+      return () => clearTimeout(timer);
+    }, [isMenuOpen]);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);

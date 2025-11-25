@@ -90,7 +90,11 @@ function AboutWriting() {
           variants={itemVariants}
         >
           <motion.button 
-          onClick={() => window.$crisp.push(["do", "chat:open"])}
+            onClick={() => {
+    if (window.LiveChatWidget?.call) {
+      window.LiveChatWidget.call("maximize");
+    }
+  }}
             className='cursor-pointer bg-amber-500 text-white px-6 py-3 rounded-lg font-semibold transition duration-300 shadow-lg'
             variants={buttonVariants}
             whileHover="hover"

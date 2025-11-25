@@ -5,30 +5,79 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KDP Publishers</title>
-<script type="text/javascript">
-  window.$crisp = [];
-  window.CRISP_WEBSITE_ID = "6cabd14d-56c3-4c2f-9815-1a893fcf72cb";
 
-  (function () {
-    var d = document;
-    var s = d.createElement("script");
-    s.src = "https://client.crisp.chat/l.js";
-    s.async = 1;
-    d.getElementsByTagName("head")[0].appendChild(s);
-  })();
+    <!-- LiveChat Script -->
+      <script>
+    window.__lc = window.__lc || {};
+    window.__lc.license = 19393063;
+    window.__lc.integration_name = "manual_onboarding";
+    window.__lc.product_name = "livechat";
 
-  // Auto-open chat only on desktop
-  window.addEventListener("load", function() {
-    if (window.innerWidth >= 1024) { // >= 1024px = desktop
-      setTimeout(function() {
-        window.$crisp.push(["do", "chat:open"]);
-      }, 2000);
-    }
+    (function (n, t, c) {
+      function i(n) {
+        return e._h ? e._h.apply(null, n) : e._q.push(n);
+      }
+      var e = {
+        _q: [],
+        _h: null,
+        _v: "2.0",
+        on: function () { i(["on", c.call(arguments)]); },
+        once: function () { i(["once", c.call(arguments)]); },
+        off: function () { i(["off", c.call(arguments)]); },
+        get: function () {
+          if (!e._h)
+            throw new Error("[LiveChatWidget] You can't use getters before load.");
+          return i(["get", c.call(arguments)]);
+        },
+        call: function () { i(["call", c.call(arguments)]); },
+        init: function () {
+          var n = t.createElement("script");
+          n.async = true;
+          n.type = "text/javascript";
+          n.src = "https://cdn.livechatinc.com/tracking.js";
+          t.head.appendChild(n);
+        },
+      };
+      !n.__lc.asyncInit && e.init();
+      n.LiveChatWidget = n.LiveChatWidget || e;
+    })(window, document, [].slice);
+  </script>
+
+  <!-- Auto-open only on desktop & only once -->
+<script>
+  window.addEventListener("load", function () {
+    if (window.innerWidth < 1024) return; // skip mobile
+
+    // Wait for widget to fully load
+    const waitForLiveChat = setInterval(() => {
+      if (window.LiveChatWidget && window.LiveChatWidget.on) {
+
+        window.LiveChatWidget.on("ready", () => {
+          window.LiveChatWidget.call("maximize"); // Open chat
+        });
+
+        clearInterval(waitForLiveChat);
+      }
+    }, 200);
   });
 </script>
+
   </head>
+
   <body>
     <div id="root"></div>
+
+    <!-- Move noscript HERE -->
+    <noscript>
+      <a href="https://www.livechat.com/chat-with/19393063/" rel="nofollow">
+        Chat with us
+      </a>,
+      powered by
+      <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">
+        LiveChat
+      </a>
+    </noscript>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

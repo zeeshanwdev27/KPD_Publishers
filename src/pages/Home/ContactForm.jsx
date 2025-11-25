@@ -259,7 +259,11 @@ function ContactForm() {
               Discuss Your Project
             </p>
             <motion.button 
-              onClick={() => window.$crisp.push(["do", "chat:open"])}
+                onClick={() => {
+    if (window.LiveChatWidget?.call) {
+      window.LiveChatWidget.call("maximize");
+    }
+  }}
               className="cursor-pointer w-full bg-transparent border border-amber-500 rounded-xl p-4 text-sm lg:text-lg font-medium text-amber-500 hover:bg-amber-500 hover:text-white transition-all duration-300 group-hover:shadow-md"
               variants={buttonVariants}
               whileHover="hover"

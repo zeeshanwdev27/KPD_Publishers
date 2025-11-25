@@ -74,14 +74,6 @@ function MbOverlay({ isOpen, setIsOpen }) {
     }
   };
 
-  useEffect(() => {
-  if (isOpen && window.innerWidth < 1024) {
-    window.$crisp.push(["do", "chat:hide"]);
-  } else {
-    window.$crisp.push(["do", "chat:show"]);
-  }
-}, [isOpen]);
-
   // Close overlay when clicking escape key
   useEffect(() => {
     const handleEscape = (e) => {

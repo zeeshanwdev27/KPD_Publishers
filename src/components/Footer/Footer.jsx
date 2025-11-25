@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { MapPin, Phone, Mail, ChevronRight } from 'lucide-react'
+import { MapPin, Mail, ChevronRight } from 'lucide-react'
 
 
 function Footer() {
@@ -28,10 +28,6 @@ function Footer() {
               <div className="flex  justify-center lg:justify-start text-sm sm:text-sm text-gray-600">
                 <MapPin className="w-4 h-4 mr-2 shrink-0 mt-1" />
                 <span>1800 S Bell St, Arlington, VA 22202</span>
-              </div>
-              <div className="flex items-center justify-center lg:justify-start text-sm sm:text-sm text-gray-600">
-                <Phone className="w-4 h-4 mr-2 shrink-0" />
-                <span>+1-111-111-1111</span>
               </div>
               <div className="flex items-center justify-center lg:justify-start text-sm sm:text-sm text-gray-600">
                 <Mail className="w-4 h-4 mr-2 shrink-0" />
