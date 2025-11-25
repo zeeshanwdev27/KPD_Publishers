@@ -45,7 +45,7 @@ function WritingProcess() {
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
           Our 4-Step{" "}
           <span className="bg-amber-500 bg-clip-text text-transparent">
-            Book Marketing Services Process
+            Book Writing Services Process
           </span>{' '}
         </h1>
       </div>

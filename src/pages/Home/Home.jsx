@@ -4,7 +4,7 @@ import Categories from './Categories.jsx'
 import Portfolio from '../../components/Portfolio.jsx'
 import About from './About.jsx'
 import BookPublishingExperts from './BookPublishingExperts.jsx'
-import OurPricing from './OurPricing.jsx'
+// import OurPricing from './OurPricing.jsx'
 import WhatPeopleSay from './WhatPeopleSay.jsx'
 import ContactForm from './ContactForm.jsx'
 
@@ -16,7 +16,7 @@ function Home() {
     <Portfolio title='Book Categories'/>
     <About/>
     <BookPublishingExperts/>
-    <OurPricing/>
+    {/* <OurPricing/> */}
     <WhatPeopleSay/>
     <ContactForm/>
     </>

@@ -83,12 +83,12 @@ function Footer() {
               </h2>
               <nav className="list-none">
                 <li className="mt-3">
-                  <Link to="#" className="text-gray-600 hover:text-amber-500  cursor-pointer transition-colors duration-200 text-sm sm:text-base flex gap-2 items-center justify-center sm:justify-start group">
+                  <Link to="/privacy-policy" className="text-gray-600 hover:text-amber-500  cursor-pointer transition-colors duration-200 text-sm sm:text-base flex gap-2 items-center justify-center sm:justify-start group">
                    <ChevronRight className='w-4 h-4'/> Privacy Policy 
                   </Link>
                 </li>
                 <li className="mt-3">
-                  <Link to="#" className="text-gray-600 hover:text-amber-500  cursor-pointer transition-colors duration-200 text-sm sm:text-base flex gap-2 items-center justify-center sm:justify-start group">
+                  <Link to="/termsandconditions" className="text-gray-600 hover:text-amber-500  cursor-pointer transition-colors duration-200 text-sm sm:text-base flex gap-2 items-center justify-center sm:justify-start group">
                     <ChevronRight className='w-4 h-4'/> Terms and Conditions
                   </Link>
                 </li>

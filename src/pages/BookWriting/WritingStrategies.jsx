@@ -32,9 +32,9 @@ function WritingStrategies() {
       {/* Header Section */}
       <div className="text-center mb-12 sm:mb-16 lg:mb-20 max-w-7xl mx-auto">
         <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-slate-900 mb-5 leading-tight">
-          Book Advertising Approach –{" "}
+          Why Choose Our{" "}
           <span className="bg-amber-500 bg-clip-text text-transparent">
-            That Is Hard To Miss
+            Ghost-Writing Services
           </span>
         </h1>
       </div>

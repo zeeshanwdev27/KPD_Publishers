@@ -116,7 +116,7 @@ function Navbar() {
             </ul>
           </li>
 
-          <li className="cursor-pointer transition-colors">
+          {/* <li className="cursor-pointer transition-colors">
             <NavLink
               to="/ourplans"
               className={({ isActive }) =>
@@ -125,7 +125,7 @@ function Navbar() {
             >
               Our Plans
             </NavLink>
-          </li>
+          </li> */}
 
           <li className="cursor-pointer transition-colors">
             <NavLink
