@@ -15,6 +15,13 @@ const TermsAndConditions = React.lazy(()=> import('./pages/TermsAndConditions/Te
 
 
 
+// PPC Pages
+const BookWritingServices = React.lazy(()=> import('./pages/ppc_Pages/BookWritingServices/BookWritingServices.jsx'))
+const BookMarketingServieces = React.lazy(()=> import('./pages/ppc_Pages/BookMarketingServieces/BookMarketingServieces.jsx'))
+const BookPublishingServices = React.lazy(()=> import('./pages/ppc_Pages/BookPublishingServices/BookPublishingServices.jsx'))
+
+
+
 
 const App = createBrowserRouter(
   createRoutesFromElements(
@@ -31,6 +38,13 @@ const App = createBrowserRouter(
         <Route path="/book-publishing-services" element={<BookPublishing />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/termsandconditions" element={<TermsAndConditions />} />
+
+
+        <Route path="/book-writing" element={<BookWritingServices />} />
+        <Route path="/book-marketing" element={<BookMarketingServieces />} />
+        <Route path="/book-publishing" element={<BookPublishingServices />} />
+
+
       </Route>
     </>
   )

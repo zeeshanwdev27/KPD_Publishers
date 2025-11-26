@@ -1,5 +1,5 @@
 <?php
-// Allow CORS (optional but recommended)
+// Allow CORS
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Headers: Content-Type");
 header("Access-Control-Allow-Methods: POST");
@@ -16,12 +16,33 @@ function clean_input($data) {
     return htmlspecialchars(strip_tags(trim($data)));
 }
 
-// Read fields from FormData
-$name    = isset($_POST['name']) ? clean_input($_POST['name']) : "";
-$phone   = isset($_POST['phone']) ? clean_input($_POST['phone']) : "";
-$email   = isset($_POST['email']) ? clean_input($_POST['email']) : "";
-$service = isset($_POST['service']) ? clean_input($_POST['service']) : "";
-$message = isset($_POST['message']) ? clean_input($_POST['message']) : "";
+/*
+-------------------------------------------------------
+ RECEIVE FIELDS FROM *ANY* FORM
+-------------------------------------------------------
+*/
+
+// Form 1 (your new form)
+$fullname     = isset($_POST['fullname']) ? clean_input($_POST['fullname']) : "";
+$phonenumber  = isset($_POST['phonenumber']) ? clean_input($_POST['phonenumber']) : "";
+
+// Form 2 (your old form)
+$name_old     = isset($_POST['name']) ? clean_input($_POST['name']) : "";
+$phone_old    = isset($_POST['phone']) ? clean_input($_POST['phone']) : "";
+$service      = isset($_POST['service']) ? clean_input($_POST['service']) : "";
+
+// Shared fields (both forms)
+$email        = isset($_POST['email']) ? clean_input($_POST['email']) : "";
+$message      = isset($_POST['message']) ? clean_input($_POST['message']) : "";
+
+/*
+-------------------------------------------------------
+ UNIFY VALUES (pick whichever exists)
+-------------------------------------------------------
+*/
+
+$name = $fullname ?: $name_old;
+$phone = $phonenumber ?: $phone_old;
 
 // Validate email
 if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -29,24 +50,36 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     exit;
 }
 
-// Email settings
-$to = "leads@kdppublications.com";   // ← CHANGE THIS TO YOUR RECEIVING EMAIL
+/*
+-------------------------------------------------------
+ EMAIL CONTENT
+-------------------------------------------------------
+*/
+
+$to = "leads@kdppublications.com"; 
 $subject = "New Contact Form Submission from KDP PUBLISHERS";
 
-// Create email body
-$body  = "You have received a new message from the contact form:\n\n";
+$body  = "You have received a new form submission:\n\n";
 $body .= "Name: $name\n";
 $body .= "Phone: $phone\n";
 $body .= "Email: $email\n";
-$body .= "Service: $service\n";
+
+if (!empty($service)) {
+    $body .= "Service: $service\n"; // (only appears for old form)
+}
+
 $body .= "Message:\n$message\n\n";
 
-// Email headers
-$headers  = "From: EbookWrites <no-reply@kdppublications.com>\r\n";
+/*
+-------------------------------------------------------
+ SEND EMAIL
+-------------------------------------------------------
+*/
+
+$headers  = "From: KDP Publications <no-reply@kdppublications.com>\r\n";
 $headers .= "Reply-To: $email\r\n";
 $headers .= "Content-Type: text/plain; charset=UTF-8\r\n";
 
-// Send email
 if (mail($to, $subject, $body, $headers)) {
     echo "success";
 } else {
