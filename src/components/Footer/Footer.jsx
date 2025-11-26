@@ -55,17 +55,17 @@ function Footer() {
               </h2>
               <nav className="list-none">
                 <li className="mt-3">
-                  <Link to="/book-marketing" className="text-gray-600 hover:text-amber-500  cursor-pointer transition-colors duration-200 text-sm sm:text-base flex gap-2 items-center justify-center sm:justify-start group">
+                  <Link to="/book-marketing-services" className="text-gray-600 hover:text-amber-500  cursor-pointer transition-colors duration-200 text-sm sm:text-base flex gap-2 items-center justify-center sm:justify-start group">
                     <ChevronRight className='w-4 h-4'/> Book Marketing
                   </Link>
                 </li>
                 <li className="mt-3">
-                  <Link to="/book-writing" className="text-gray-600 hover:text-amber-500  cursor-pointer transition-colors duration-200 text-sm sm:text-base flex gap-2 items-center justify-center sm:justify-start group">
+                  <Link to="/book-writing-services" className="text-gray-600 hover:text-amber-500  cursor-pointer transition-colors duration-200 text-sm sm:text-base flex gap-2 items-center justify-center sm:justify-start group">
                     <ChevronRight className='w-4 h-4'/> Book Writing
                   </Link>
                 </li>
                 <li className="mt-3">
-                  <Link to="/book-publishing" className="text-gray-600 hover:text-amber-500 cursor-pointer transition-colors duration-200 text-sm sm:text-base flex gap-2 items-center justify-center sm:justify-start group">
+                  <Link to="/book-publishing-services" className="text-gray-600 hover:text-amber-500 cursor-pointer transition-colors duration-200 text-sm sm:text-base flex gap-2 items-center justify-center sm:justify-start group">
                     <ChevronRight className='w-4 h-4'/> Book Publishing
                   </Link>
                 </li>

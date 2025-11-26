@@ -1,13 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { 
-  Shield, 
   FileText, 
   User, 
   Cookie, 
   Link, 
   Mail, 
-  Phone, 
   MapPin,
   CheckCircle,
   Lock
@@ -65,7 +63,7 @@ function PrivacyPolicyContent() {
           className="text-gray-700 leading-relaxed text-base sm:text-lg"
           variants={itemVariants}
         >
-          KPD-Publishing is committed to protecting user information and ensuring responsible data handling. 
+          KPD-Publications is committed to protecting user information and ensuring responsible data handling. 
           This policy outlines how information is collected, used, and safeguarded when visitors browse 
           the website, submit inquiries, or request services.
         </motion.p>
@@ -86,7 +84,7 @@ function PrivacyPolicyContent() {
             <FileText className="h-6 w-6 text-blue-600 mr-3" />
             <h2 className="text-xl font-semibold text-gray-900">Information Collected</h2>
           </div>
-          <p className="text-gray-600 mb-4 text-sm">KPD-Publishing may collect:</p>
+          <p className="text-gray-600 mb-4 text-sm">KPD-Publications may collect:</p>
           <ul className="space-y-2">
             {['Name, email, phone number', 'Project details and submitted materials', 'Browser, device, and analytical data'].map((item, index) => (
               <motion.li 
@@ -185,7 +183,7 @@ function PrivacyPolicyContent() {
             className="text-gray-700 text-sm leading-relaxed"
             variants={itemVariants}
           >
-            KPD-Publishing is not responsible for external website policies or content.
+            KPD-Publications is not responsible for external website policies or content.
           </motion.p>
         </motion.section>
 

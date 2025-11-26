@@ -17,7 +17,7 @@ const TermsAndConditionsContent = () => {
       id: 'information-collected',
       title: 'Information Collected',
       icon: <Shield className="w-5 h-5" />,
-      content: 'KPD-Publishing may collect:',
+      content: 'KPD-Publications may collect:',
       items: [
         'Name, email, phone number',
         'Project details and submitted materials',
@@ -52,7 +52,7 @@ const TermsAndConditionsContent = () => {
       id: 'third-party-links',
       title: 'Third-Party Links',
       icon: <LinkIcon className="w-5 h-5" />,
-      content: 'KPD-Publishing is not responsible for external website policies or content.'
+      content: 'KPD-Publications is not responsible for external website policies or content.'
     },
     {
       id: 'user-rights',
@@ -89,7 +89,7 @@ const TermsAndConditionsContent = () => {
         >
 
           <p className="text-gray-700 max-w-3xl mx-auto leading-relaxed">
-            KPD-Publishing is committed to protecting user information and ensuring responsible data handling. 
+            KPD-Publications is committed to protecting user information and ensuring responsible data handling. 
             This policy outlines how information is collected, used, and safeguarded when visitors browse the website, 
             submit inquiries, or request services.
           </p>

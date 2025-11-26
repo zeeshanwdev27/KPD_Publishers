@@ -40,7 +40,7 @@ function HeroSection({title, description}) {
           }
           }}>Chat With Us
           </button>
-        <Link to={'/contact-us/'} className='bg-[#FF9631] p-3 px-5 rounded-md text-white font-bold cursor-pointer hover:bg-[#FF9631]/70 transition'>Get Free Consultation</Link>
+        <Link to={'/contact-us/'} className='bg-[#FF9631] p-3 px-5 rounded-md text-white font-bold cursor-pointer hover:bg-[#FF9631]/70 transition text-center'>Get Free Consultation</Link>
       </div>
 
      </div>
