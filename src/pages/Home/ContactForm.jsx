@@ -241,7 +241,7 @@ function ContactForm() {
 
       {/* Contact Methods */}
       <motion.div 
-        className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 gap-6 mt-8"
+        className="w-full max-w-4xl grid grid-cols-1 md:grid-cols-3 gap-6 mt-8"
         variants={containerVariants}
       >
         <motion.div className="text-center group" variants={itemVariants}>
@@ -274,7 +274,7 @@ function ContactForm() {
           </motion.div>
         </motion.div>
 
-        {/* <motion.div className="text-center group" variants={itemVariants}>
+        <motion.div className="text-center group" variants={itemVariants}>
           <motion.div 
             className="bg-white rounded-2xl p-6 shadow-lg border border-gray-100 group-hover:shadow-xl group-hover:border-amber-500/20 transition-all duration-300"
             variants={cardVariants}
@@ -286,18 +286,18 @@ function ContactForm() {
               </span>
             </div>
             <p className="font-semibold text-gray-700 mb-3">Make a Call</p>
-            <Link to="tel:#">
+            <Link to="tel:+15714507817">
               <motion.button 
                 className="cursor-pointer w-full bg-transparent border border-amber-500 rounded-xl p-4 text-sm lg:text-lg font-medium text-amber-500 hover:bg-amber-500 hover:text-white transition-all duration-300 group-hover:shadow-md"
                 variants={buttonVariants}
                 whileHover="hover"
                 whileTap="tap"
               >
-                +1-111-111-1111
+                +1-571-450-7817 
               </motion.button>
             </Link>
           </motion.div>
-        </motion.div> */}
+        </motion.div>
 
         <motion.div className="text-center group" variants={itemVariants}>
           <motion.div 

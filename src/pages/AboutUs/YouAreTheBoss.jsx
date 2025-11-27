@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Crown, PenTool, CheckCircle, Star } from "lucide-react";
+import { Crown, PenTool, CheckCircle, Star, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 
 function YouAreTheBoss() {
@@ -148,14 +148,14 @@ function YouAreTheBoss() {
             whileTap={{ scale: 0.95 }}
             className="inline-block"
           >
-            <button 
-            onClick={() => window.$crisp.push(["do", "chat:open"])}
+            <Link 
+            to="tel:+15714507817"
 
-              className="cursor-pointer bg-white text-amber-500 px-8 py-4 rounded-xl font-bold text-lg sm:text-xl shadow-lg hover:shadow-xl transition-all duration-200 inline-flex items-center gap-3"
+              className="cursor-pointer bg-white text-amber-500 px-8 py-4 rounded-xl font-bold text-lg sm:text-xl shadow-lg hover:shadow-xl transition-all duration-200 inline-flex items-center gap-2"
             >
+               <Phone className="w-5 h-5 text-amber-500" strokeWidth={2.5} /><span>+1-571-450-7817 </span>
               <div className="w-2 h-2 bg-amber-500 rounded-full animate-pulse"></div>
-              <span>CHAT NOW</span>
-            </button>
+            </Link>
           </motion.div>
           <p className="text-black mt-4 text-sm">24/7 • Customer Support Available</p>
         </motion.div>
